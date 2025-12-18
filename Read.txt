@@ -1,0 +1,9 @@
+Data is uncleaned
+
+Same manager has different age
+When sorting the data by manager name in ascending order, it becomes evident that a single manager, such as Andrew Blue, has multiple age values. This is a data quality issue because a person should have only one age value. Similarly, Chris Green also has multiple age values recorded.
+
+Logic to Determine True Age
+The logic provided states that if the dataset is sorted by production date in ascending order, the first age value that appears for any given person is the true age of that person. For example, after sorting by production date, Jane Smith's first age value is 26, which should be considered her true age. Therefore, all entries for Jane Smith should have her age populated as 26.
+
+Two more column were added
